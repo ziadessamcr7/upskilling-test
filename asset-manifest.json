@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/upskilling-test/static/css/main.b275d6ad.css",
+    "main.js": "/upskilling-test/static/js/main.74a6a63b.js",
+    "static/js/787.0c3f432a.chunk.js": "/upskilling-test/static/js/787.0c3f432a.chunk.js",
+    "static/media/Vector 7.png": "/upskilling-test/static/media/Vector 7.a16464a0baf17817579a.png",
+    "static/media/Rectangle 262.png": "/upskilling-test/static/media/Rectangle 262.fd8c8f6aafd1beefccb5.png",
+    "static/media/2png.png": "/upskilling-test/static/media/2png.476a46a93347f7b7209e.png",
+    "static/media/fa-solid-900.ttf": "/upskilling-test/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/png": "/upskilling-test/static/media/b51e46d3d5bb005d1e122864372c48f7.f29bff9070d7e30dd541.png",
+    "static/media/3.jpg": "/upskilling-test/static/media/3.36953532a49f5d42aadd.jpg",
+    "static/media/fa-brands-400.ttf": "/upskilling-test/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/upskilling-test/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/Rectangle 263.png": "/upskilling-test/static/media/Rectangle 263.93c1792e849a2c0d161d.png",
+    "static/media/fa-brands-400.woff2": "/upskilling-test/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/upskilling-test/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/upskilling-test/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/upskilling-test/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/upskilling-test/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/logo.svg": "/upskilling-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/upskilling-test/index.html",
+    "main.b275d6ad.css.map": "/upskilling-test/static/css/main.b275d6ad.css.map",
+    "main.74a6a63b.js.map": "/upskilling-test/static/js/main.74a6a63b.js.map",
+    "787.0c3f432a.chunk.js.map": "/upskilling-test/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b275d6ad.css",
+    "static/js/main.74a6a63b.js"
+  ]
+}
