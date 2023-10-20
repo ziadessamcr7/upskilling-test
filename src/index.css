@@ -1,13 +1,196 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, 'Poppins'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Poppins',
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 55px;
+  color: #6D91EE;
+}
+
+#header {
+  background-image: url('./images/Vector\ 7.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#header h2 {
+  color: #6D91EE;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 118.5%;
+  /* 71.1px */
+}
+
+#header h1 {
+  font-weight: 900;
+  color: #4F4F4F;
+}
+
+#header h5 {
+  color: var(--Gray-2, #4F4F4F);
+  font-size: 86px;
+  /* font-style: normal; */
+  font-weight: 100;
+  line-height: 45px;
+}
+
+#header p {
+  color: #6D91EE;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 5%;
+  letter-spacing: 14px;
+}
+
+#header h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#about .yellow {
+  background-color: #EEC04B;
+}
+
+@media (max-width: 576px) {
+  #header {
+    background-size: contain;
+
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    background-size: contain;
+
+  }
+
+  svg {
+    height: 870px;
+
+  }
+
+}
+
+@media (max-width: 992px) {
+  #header {
+    background-size: cover;
+  }
+
+  svg {
+    /* height: 500px; */
+
+  }
+
+}
+
+
+#about {
+  background-image: url('./images/Rectangle\ 262.png');
+  /* height: 500px; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services .card {
+  box-shadow: 0px 10px 30px 0px rgba(16, 51, 30, 0.10);
+  color: #324473;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+#contact {
+  background: #FCFCFC;
+}
+
+#contact input {
+  background-color: #CEDCFF;
+}
+
+#contact .mail,
+#contact .phone {
+  color: #6D91EE;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+  position: absolute;
+  background-color: #6D91EE;
+  height: 1px;
+  width: 25px;
+}
+
+.line1 {
+  top: -3px;
+  left: -12px;
+  transform: rotate(-42deg);
+}
+
+.line2 {
+  top: -2px;
+  right: -13px;
+  transform: rotate(45deg);
+}
+
+.line3 {
+  bottom: -2px;
+  right: -12px;
+  transform: rotate(-44deg);
+}
+
+.line4 {
+  bottom: -2px;
+  left: -13px;
+  transform: rotate(45deg);
+}
+
+
+#Testymonial .lorem {
+  font-size: 12px;
+}
+
+.stars {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #6D91EE;
+}
+
+
+
+.err {
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+::placeholder {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer {
+  background-color: #0C1E49;
 }
