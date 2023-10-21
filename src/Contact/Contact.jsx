@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useFormik } from 'formik'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { TailSpin } from 'react-loader-spinner'
+import { Bars, TailSpin } from 'react-loader-spinner'
 
 export default function Contact() {
 
@@ -66,7 +66,7 @@ export default function Contact() {
 
     return <section className='container-fluid mb-4' id='contact'>
 
-        <div className='d-flex  justify-content-center my-5 pt-5'>
+        <div className='d-flex justify-content-center my-5 pt-5'>
             <h1 className='position-relative'>Contact Us
                 <div className='line1'></div>
                 <div className='line2'></div>
@@ -77,7 +77,7 @@ export default function Contact() {
 
         <div className="row justify-content-center">
 
-            <div className="col-md-3">
+            <div className="col-md-3 bg-info-subtle">
                 <div>
                     <form onSubmit={formik.handleSubmit}>
                         <input type="text" value={formik.values.name} onChange={formik.handleChange} onBlur={formik.handleBlur} className='form-control rounded-5 p-2' id='name' name='name' placeholder='Name' />
@@ -92,13 +92,12 @@ export default function Contact() {
 
 
 
-                        <button type='submit' className='btn btn-outline-info px-5 rounded-4 d-flex m-auto mt-3 mb-5'>
-                            {laoding ? <TailSpin
-                                height="30"
-                                width="30"
-                                color="blue"
-                                ariaLabel="tail-spin-loading"
-                                radius="4"
+                        <button type='submit' className='btn btn-outline-info px-5 rounded-4 m-auto mt-3 mb-5'>
+                            {laoding ? <Bars
+                                height="20"
+                                width="20"
+                                color="#4fa94d"
+                                ariaLabel="bars-loading"
                                 wrapperStyle={{}}
                                 wrapperClass=""
                                 visible={true}

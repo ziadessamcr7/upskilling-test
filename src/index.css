@@ -79,9 +79,8 @@ h1 {
 
   }
 
-  svg {
+  #about svg {
     height: 870px;
-
   }
 
 }
@@ -174,7 +173,6 @@ h1 {
   justify-content: space-evenly;
   color: #6D91EE;
 }
-
 
 
 .err {
