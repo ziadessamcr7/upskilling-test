@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upskilling-test/static/css/main.b275d6ad.css",
-    "main.js": "/upskilling-test/static/js/main.74a6a63b.js",
+    "main.css": "/upskilling-test/static/css/main.b50210c4.css",
+    "main.js": "/upskilling-test/static/js/main.35d955aa.js",
     "static/js/787.0c3f432a.chunk.js": "/upskilling-test/static/js/787.0c3f432a.chunk.js",
     "static/media/Vector 7.png": "/upskilling-test/static/media/Vector 7.a16464a0baf17817579a.png",
     "static/media/Rectangle 262.png": "/upskilling-test/static/media/Rectangle 262.fd8c8f6aafd1beefccb5.png",
@@ -19,12 +19,12 @@
     "static/media/fa-v4compatibility.woff2": "/upskilling-test/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "static/media/logo.svg": "/upskilling-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/upskilling-test/index.html",
-    "main.b275d6ad.css.map": "/upskilling-test/static/css/main.b275d6ad.css.map",
-    "main.74a6a63b.js.map": "/upskilling-test/static/js/main.74a6a63b.js.map",
+    "main.b50210c4.css.map": "/upskilling-test/static/css/main.b50210c4.css.map",
+    "main.35d955aa.js.map": "/upskilling-test/static/js/main.35d955aa.js.map",
     "787.0c3f432a.chunk.js.map": "/upskilling-test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b275d6ad.css",
-    "static/js/main.74a6a63b.js"
+    "static/css/main.b50210c4.css",
+    "static/js/main.35d955aa.js"
   ]
 }
