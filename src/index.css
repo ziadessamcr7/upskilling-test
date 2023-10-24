@@ -71,6 +71,21 @@ h1 {
     background-size: contain;
 
   }
+
+  #Testymonial img {
+    width: 40% !important;
+    display: block;
+    margin: auto;
+  }
+
+  #Testymonial .col-md-5 {
+    text-align: center;
+  }
+
+  #Testymonial .stars {
+    margin: auto;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -83,6 +98,21 @@ h1 {
     height: 870px;
   }
 
+  #Testymonial img {
+    width: 50% !important;
+    display: block;
+    margin: auto;
+  }
+
+  #Testymonial .col-md-5 {
+    text-align: center;
+  }
+
+  #Testymonial .stars {
+    width: 30%;
+    margin: auto;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -93,6 +123,10 @@ h1 {
   svg {
     /* height: 500px; */
 
+  }
+
+  #Testymonial .stars {
+    width: 50%;
   }
 
 }
@@ -168,7 +202,7 @@ h1 {
 }
 
 .stars {
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   color: #6D91EE;

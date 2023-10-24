@@ -77,7 +77,7 @@ export default function Contact() {
 
         <div className="row justify-content-center">
 
-            <div className="col-md-3 bg-info-subtle">
+            <div className="col-md-3">
                 <div>
                     <form onSubmit={formik.handleSubmit}>
                         <input type="text" value={formik.values.name} onChange={formik.handleChange} onBlur={formik.handleBlur} className='form-control rounded-5 p-2' id='name' name='name' placeholder='Name' />
@@ -112,11 +112,11 @@ export default function Contact() {
                 <div className='pb-5'>
                     <div className='mail mb-4'>
                         <i class="fa-solid fa-envelope "></i>
-                        <span className='ms-3'>upskilling@gmail.com</span>
+                        <span className='ms-3 text-dark'>upskilling@gmail.com</span>
                     </div>
                     <div className='phone'>
                         <i class="fa-solid fa-phone"></i>
-                        <span className='ms-3'>+1123984085</span>
+                        <span className='ms-3 text-dark'>+1123984085</span>
                     </div>
                 </div>
             </div>
